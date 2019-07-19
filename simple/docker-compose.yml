@@ -19,7 +19,7 @@ services:
   db:
     env_file:
       - db.env
-    image: "postgres:postgres:11.4-alpine"
+    image: "postgres:postgres:11-alpine"
     expose:
       - 5432
 
